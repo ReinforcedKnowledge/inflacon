@@ -6,3 +6,9 @@ Il permet aussi de visualiser l'Indice du Prix à la Consommation (IPC) et ses v
 
 Toutes les données proviennent de mon traitement personnel des données de l'INSEE. 
 Vous trouverez la source des données brutes, les données brutes, mes scripts de traitement ainsi que les données traitées sur [france-inflation-data-cleaned](https://github.com/ReinforcedKnowledge/france-inflation-data-cleaned).
+
+## Installation
+1. Installez [uv](https://github.com/astral-sh/uv)
+2. Clonez le repo `https://github.com/ReinforcedKnowledge/inflacon.git`
+3. Rentrez dedans `cd inflacon`
+4. Exécutez `uv run streamlit run Calculateur.py`
